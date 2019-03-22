@@ -4,7 +4,17 @@ const jobs = require('./jobs')
 
 const app = express()
 
-app.get('/jobs', (_, res) => {
+app.get('/', (_, res) => {
+  return res
+    .status(200)
+    .send('<img src="https://cdn.discordapp.com/emojis/404433244113862667.png?v=1" />')
+})
+
+app.get('/jobs', (req, res) => {
+  const { query: { job } } = req
+  if (job) {
+    return res.status(200).json(jobs[job] || {})
+  }
   return res.status(200).json(Object.values(jobs))
 })
 
