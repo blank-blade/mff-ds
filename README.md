@@ -2,7 +2,7 @@
 
 Mobius Final Fantasy data server.
 
-This is based on the data and work from https://github.com/Ariit0/discordbot-docker-application.
+This is based on the data and work from [Ariit0's Discord Bots](https://github.com/Ariit0/discordbot-docker-application).
 
 ## APIs
 
