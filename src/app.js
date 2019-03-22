@@ -18,6 +18,10 @@ app.get('/jobs', (req, res) => {
   return res.status(200).json(Object.values(jobs))
 })
 
+app.get('/jobs/keys', (_, res) => {
+  return res.status(200).json(Object.keys(jobs))
+})
+
 // catch-all error handler
 // eslint disable otherwise not able to catch errors
 // eslint-disable-next-line no-unused-vars
