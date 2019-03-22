@@ -1,8 +1,11 @@
 const express = require('express')
+const cors = require('cors')
 
 const jobs = require('./jobs')
 
 const app = express()
+
+app.use(cors())
 
 app.get('/', (_, res) => {
   return res
