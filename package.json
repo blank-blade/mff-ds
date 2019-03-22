@@ -1,0 +1,17 @@
+{
+  "name": "mff-ds",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "woozyking <runzhou.li@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
