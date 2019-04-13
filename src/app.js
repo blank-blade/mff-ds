@@ -16,13 +16,13 @@ app.get('/', (_, res) => {
 app.get('/jobs', (req, res) => {
   const { query: { job } } = req
   if (job) {
-    return res.status(200).json(jobs[job] || {})
+    return res.status(200).json(jobs[0][job] || {})
   }
-  return res.status(200).json(Object.values(jobs))
+  return res.status(200).json(jobs[0])
 })
 
 app.get('/jobs/keys', (_, res) => {
-  return res.status(200).json(Object.keys(jobs))
+  return res.status(200).json(Object.keys(jobs[0]))
 })
 
 // catch-all error handler
