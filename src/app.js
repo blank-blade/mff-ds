@@ -1,10 +1,12 @@
 const express = require('express')
 const cors = require('cors')
+const rateLimit = require('express-rate-limit')
 
 const jobs = require('./jobs')
 
 const app = express()
-
+app.enable('trust proxy')
+app.use(rateLimit({ windowMs: 60 * 1000, max: 3 }))
 app.use(cors())
 
 app.get('/', (_, res) => {

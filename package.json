@@ -12,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-rate-limit": "^3.4.0",
     "google-spreadsheet-to-json": "^1.0.0"
   },
   "devDependencies": {
