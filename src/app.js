@@ -45,7 +45,11 @@ app.get('/jobs/type', (req, res) => {
   }
 
   for(job in jobs[0]) { 
-    if(jobs[0][job].jobType === type) {
+    if(type !== "Skin" && jobs[0][job].jobType === type) {
+      jobsOfType[job] = jobs[0][job];
+    }  
+    // queries for "Skin"
+    if (type === "Skin" && jobs[0][job].hasOwnProperty('jobIsSkin')) {
       jobsOfType[job] = jobs[0][job];
     }
   }
