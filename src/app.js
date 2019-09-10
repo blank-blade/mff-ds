@@ -74,10 +74,14 @@ app.get('/beta/jobs/type', (req, res) => {
 
 /**
  * Jobs endpoint
- * Returns list of job keys
+ * Returns list of queryable jobs 
  */
 app.get('/beta/jobs/keys', (_, res) => {
-  return res.status(200).json(Object.keys(jobs[0]));
+  JobModel.find().distinct('jobQueryString')
+    .then(jobs => {
+      res.status(200).json(jobs);
+    })
+    .catch(err => res.status(400).json('Error: ' + err));
 });
 
 // catch-all error handler
