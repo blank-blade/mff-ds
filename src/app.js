@@ -4,7 +4,7 @@ const rateLimit = require('express-rate-limit');
 const mongoose = require('mongoose');
 
 const jobs = require('./jobs');
-const Job = require('./models/jobs.model');
+const JobModel = require('./models/jobs.model');
 
 const app = express();
 app.enable('trust proxy');
@@ -25,10 +25,25 @@ app.get('/beta/jobs', (req, res) => {
   const { query: { name } } = req; // name specific query
 
   if (name) {
-    return res.status(200).json(jobs[0][name] || {});
-  }
+    let query = JobModel.where({ jobQueryString: name });
+
+    query.findOne((err, job) => {
+      if (err) {
+        const { message } = err;
+        return res.status(err.status || 500).json({ message });
+      };
   
-  return res.status(200).json(jobs[0] || {});
+      if (!job) {
+        return res.status(400).json('Job not found');
+      }
+
+      return res.status(200).json(job);
+    });
+  }
+
+  JobModel.find().then(job => {
+    res.status(200).json(job);
+  }).catch(err => res.status(400).json('Error: ' + err));
 });
 
 /**

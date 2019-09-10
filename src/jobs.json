@@ -1,7 +1,7 @@
 [
     [
         {
-            "_id": "1-onion-knight",
+            "_id": "1",
             "jobQueryString": "onion-knight",
             "jobType": "Warrior",
             "jobName": "Onion Knight",
@@ -18,7 +18,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "2-apprentice-mage",
+            "_id": "2",
             "jobQueryString": "apprentice-mage",
             "jobType": "Mage",
             "jobName": "Apprentice Mage",
@@ -34,7 +34,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "3-neophyte-ranger",
+            "_id": "3",
             "jobQueryString": "neophyte-ranger",
             "jobType": "Ranger",
             "jobName": "Neophyte Ranger",
@@ -50,7 +50,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "4-trainee-monk",
+            "_id": "4",
             "jobQueryString": "trainee-monk",
             "jobType": "Monk",
             "jobName": "Trainee Monk",
@@ -65,7 +65,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "5-the-azure-witch",
+            "_id": "5",
             "jobQueryString": "the-azure-witch",
             "jobType": "Meia",
             "jobName": "The Azure Witch",
@@ -82,7 +82,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "6-battle-princess",
+            "_id": "6",
             "jobQueryString": "battle-princess",
             "jobType": "Sarah",
             "jobName": "Battle Princess",
@@ -98,7 +98,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "7-freelancer",
+            "_id": "7",
             "jobQueryString": "freelancer",
             "jobType": "Sophie",
             "jobName": "Freelancer",
@@ -115,7 +115,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "8-epeiste",
+            "_id": "8",
             "jobQueryString": "epeiste",
             "jobType": "Graff",
             "jobName": "Epeiste",
@@ -132,7 +132,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "9-warrior",
+            "_id": "9",
             "jobQueryString": "warrior",
             "jobType": "Warrior",
             "jobName": "Warrior",
@@ -147,7 +147,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "10-knight",
+            "_id": "10",
             "jobQueryString": "knight",
             "jobType": "Warrior",
             "jobName": "Knight",
@@ -162,7 +162,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "11-mage",
+            "_id": "11",
             "jobQueryString": "mage",
             "jobType": "Mage",
             "jobName": "Mage",
@@ -177,7 +177,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "12-white-mage",
+            "_id": "12",
             "jobQueryString": "white-mage",
             "jobType": "Mage",
             "jobName": "White Mage",
@@ -192,7 +192,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "13-ranger",
+            "_id": "13",
             "jobQueryString": "ranger",
             "jobType": "Ranger",
             "jobName": "Ranger",
@@ -207,7 +207,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "14-hunter",
+            "_id": "14",
             "jobQueryString": "hunter",
             "jobType": "Ranger",
             "jobName": "Hunter",
@@ -222,7 +222,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "15-dark-knight",
+            "_id": "15",
             "jobQueryString": "dark-knight",
             "jobType": "Warrior",
             "jobName": "Dark Knight",
@@ -237,7 +237,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "16-black-mage",
+            "_id": "16",
             "jobQueryString": "black-mage",
             "jobType": "Mage",
             "jobName": "Black Mage",
@@ -252,7 +252,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "17-thief",
+            "_id": "17",
             "jobQueryString": "thief",
             "jobType": "Ranger",
             "jobName": "Thief",
@@ -267,7 +267,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "18-samurai",
+            "_id": "18",
             "jobQueryString": "samurai",
             "jobType": "Warrior",
             "jobName": "Samurai",
@@ -282,7 +282,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "19-red-mage",
+            "_id": "19",
             "jobQueryString": "red-mage",
             "jobType": "Mage",
             "jobName": "Red Mage",
@@ -297,7 +297,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "20-assassin",
+            "_id": "20",
             "jobQueryString": "assassin",
             "jobType": "Ranger",
             "jobName": "Assassin",
@@ -312,7 +312,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "21-dragoon",
+            "_id": "21",
             "jobQueryString": "dragoon",
             "jobType": "Warrior",
             "jobName": "Dragoon",
@@ -327,7 +327,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "22-scholar",
+            "_id": "22",
             "jobQueryString": "scholar",
             "jobType": "Mage",
             "jobName": "Scholar",
@@ -342,7 +342,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "23-dancer",
+            "_id": "23",
             "jobQueryString": "dancer",
             "jobType": "Ranger",
             "jobName": "Dancer",
@@ -357,7 +357,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "24-ace-striker",
+            "_id": "24",
             "jobQueryString": "ace-striker",
             "jobType": "Warrior",
             "jobName": "Ace Striker",
@@ -372,7 +372,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "25-mythic-sage",
+            "_id": "25",
             "jobQueryString": "mythic-sage",
             "jobType": "Mage",
             "jobName": "Mythic Sage",
@@ -387,7 +387,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "26-mythic-ninja",
+            "_id": "26",
             "jobQueryString": "mythic-ninja",
             "jobType": "Ranger",
             "jobName": "Mythic Ninja",
@@ -402,7 +402,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "27-mythic-knight",
+            "_id": "27",
             "jobQueryString": "mythic-knight",
             "jobType": "Warrior",
             "jobName": "Mythic Knight",
@@ -417,7 +417,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "28-paladin",
+            "_id": "28",
             "jobQueryString": "paladin",
             "jobType": "Warrior",
             "jobName": "Paladin",
@@ -431,7 +431,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "29-devout",
+            "_id": "29",
             "jobQueryString": "devout",
             "jobType": "Mage",
             "jobName": "Devout",
@@ -445,7 +445,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "30-viking",
+            "_id": "30",
             "jobQueryString": "viking",
             "jobType": "Ranger",
             "jobName": "Viking",
@@ -459,7 +459,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "31-soldier-1st-class",
+            "_id": "31",
             "jobQueryString": "soldier-1st-class",
             "jobType": "Warrior",
             "jobName": "Soldier 1st Class",
@@ -474,7 +474,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "32-rogue",
+            "_id": "32",
             "jobQueryString": "rogue",
             "jobType": "Ranger",
             "jobName": "Rogue",
@@ -488,7 +488,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "33-berserker",
+            "_id": "33",
             "jobQueryString": "berserker",
             "jobType": "Warrior",
             "jobName": "Berserker",
@@ -502,7 +502,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "34-heretic-knight",
+            "_id": "34",
             "jobQueryString": "heretic-knight",
             "jobType": "Warrior",
             "jobName": "Heretic Knight",
@@ -517,7 +517,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "35-occultist",
+            "_id": "35",
             "jobQueryString": "occultist",
             "jobType": "Mage",
             "jobName": "Occultist",
@@ -531,7 +531,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "36-monk",
+            "_id": "36",
             "jobQueryString": "monk",
             "jobType": "Monk",
             "jobName": "Monk",
@@ -545,7 +545,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "37-pugilist",
+            "_id": "37",
             "jobQueryString": "pugilist",
             "jobType": "Monk",
             "jobName": "Pugilist",
@@ -559,7 +559,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "38-grappler",
+            "_id": "38",
             "jobQueryString": "grappler",
             "jobType": "Monk",
             "jobName": "Grappler",
@@ -573,7 +573,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "39-bard",
+            "_id": "39",
             "jobQueryString": "bard",
             "jobType": "Ranger",
             "jobName": "Bard",
@@ -587,7 +587,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "40-hermit",
+            "_id": "40",
             "jobQueryString": "hermit",
             "jobType": "Monk",
             "jobName": "Hermit",
@@ -601,7 +601,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "41-tactician",
+            "_id": "41",
             "jobQueryString": "tactician",
             "jobType": "Mage",
             "jobName": "Tactician",
@@ -615,7 +615,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "42-judge-magister",
+            "_id": "42",
             "jobQueryString": "judge-magister",
             "jobType": "Ranger",
             "jobName": "Judge Magister",
@@ -630,7 +630,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "43-high-wind",
+            "_id": "43",
             "jobQueryString": "high-wind",
             "jobType": "Warrior",
             "jobName": "High Wind",
@@ -644,7 +644,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "44-balamb-mercenary",
+            "_id": "44",
             "jobQueryString": "balamb-mercenary",
             "jobType": "Warrior",
             "jobName": "Balamb Mercenary",
@@ -659,7 +659,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "45-tonberry-suit",
+            "_id": "45",
             "jobQueryString": "tonberry-suit",
             "jobType": "Mage",
             "jobName": "Tonberry Suit",
@@ -674,7 +674,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "46-thief-of-tantalus",
+            "_id": "46",
             "jobQueryString": "thief-of-tantalus",
             "jobType": "Ranger",
             "jobName": "Thief of Tantalus",
@@ -689,7 +689,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "47-moogle-suit",
+            "_id": "47",
             "jobQueryString": "moogle-suit",
             "jobType": "Monk",
             "jobName": "Moogle Suit",
@@ -704,7 +704,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "48-hope's-guide",
+            "_id": "48",
             "jobQueryString": "hope's-guide",
             "jobType": "Mage",
             "jobName": "Hope's Guide",
@@ -719,7 +719,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "49-unbroken-hero",
+            "_id": "49",
             "jobQueryString": "unbroken-hero",
             "jobType": "Monk",
             "jobName": "Unbroken Hero",
@@ -734,7 +734,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "50-lightning",
+            "_id": "50",
             "jobQueryString": "lightning",
             "jobType": "Ranger",
             "jobName": "Lightning",
@@ -757,7 +757,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "51-knight-of-etro",
+            "_id": "51",
             "jobQueryString": "knight-of-etro",
             "jobType": "Warrior",
             "jobName": "Knight of Etro",
@@ -772,7 +772,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "52-last-hunter",
+            "_id": "52",
             "jobQueryString": "last-hunter",
             "jobType": "Ranger",
             "jobName": "Last Hunter",
@@ -787,7 +787,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "53-fauviste",
+            "_id": "53",
             "jobQueryString": "fauviste",
             "jobType": "Meia",
             "jobName": "Fauviste",
@@ -801,7 +801,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "54-warrior-[hof]",
+            "_id": "54",
             "jobQueryString": "warrior-[hof]",
             "jobType": "Warrior",
             "jobName": "Warrior [HoF]",
@@ -832,7 +832,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "55-mage-[hof]",
+            "_id": "55",
             "jobQueryString": "mage-[hof]",
             "jobType": "Mage",
             "jobName": "Mage [HoF]",
@@ -863,7 +863,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "56-ranger-[hof]",
+            "_id": "56",
             "jobQueryString": "ranger-[hof]",
             "jobType": "Ranger",
             "jobName": "Ranger [HoF]",
@@ -894,7 +894,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "57-knight-[hof]",
+            "_id": "57",
             "jobQueryString": "knight-[hof]",
             "jobType": "Warrior",
             "jobName": "Knight [HoF]",
@@ -929,7 +929,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "58-esmeralda",
+            "_id": "58",
             "jobQueryString": "esmeralda",
             "jobType": "Meia",
             "jobName": "Esmeralda",
@@ -943,7 +943,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "59-hunter-[hof]",
+            "_id": "59",
             "jobQueryString": "hunter-[hof]",
             "jobType": "Ranger",
             "jobName": "Hunter [HoF]",
@@ -976,7 +976,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "60-white-mage-[hof]",
+            "_id": "60",
             "jobQueryString": "white-mage-[hof]",
             "jobType": "Mage",
             "jobName": "White Mage [HoF]",
@@ -1009,7 +1009,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "61-amalthea",
+            "_id": "61",
             "jobQueryString": "amalthea",
             "jobType": "Meia",
             "jobName": "Amalthea",
@@ -1023,7 +1023,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "62-dark-knight-[hof]",
+            "_id": "62",
             "jobQueryString": "dark-knight-[hof]",
             "jobType": "Warrior",
             "jobName": "Dark Knight [HoF]",
@@ -1058,7 +1058,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "63-black-mage-[hof]",
+            "_id": "63",
             "jobQueryString": "black-mage-[hof]",
             "jobType": "Mage",
             "jobName": "Black Mage [HoF]",
@@ -1093,7 +1093,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "64-master-monk",
+            "_id": "64",
             "jobQueryString": "master-monk",
             "jobType": "Monk",
             "jobName": "Master Monk",
@@ -1107,7 +1107,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "65-thief-[hof]",
+            "_id": "65",
             "jobQueryString": "thief-[hof]",
             "jobType": "Ranger",
             "jobName": "Thief [HoF]",
@@ -1141,7 +1141,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "66-cloud-strife",
+            "_id": "66",
             "jobQueryString": "cloud-strife",
             "jobType": "Warrior",
             "jobName": "Cloud Strife",
@@ -1165,7 +1165,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "67-soldier-1st-class-[hof]",
+            "_id": "67",
             "jobQueryString": "soldier-1st-class-[hof]",
             "jobType": "Warrior",
             "jobName": "Soldier 1st Class [HoF]",
@@ -1204,7 +1204,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "68-ace-striker-[hof]",
+            "_id": "68",
             "jobQueryString": "ace-striker-[hof]",
             "jobType": "Warrior",
             "jobName": "Ace Striker [HoF]",
@@ -1240,7 +1240,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "69-santa-lucia",
+            "_id": "69",
             "jobQueryString": "santa-lucia",
             "jobType": "Meia",
             "jobName": "Santa Lucia",
@@ -1254,7 +1254,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "70-ninja",
+            "_id": "70",
             "jobQueryString": "ninja",
             "jobType": "Ranger",
             "jobName": "Ninja",
@@ -1268,7 +1268,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "71-red-mage-[hof]",
+            "_id": "71",
             "jobQueryString": "red-mage-[hof]",
             "jobType": "Mage",
             "jobName": "Red Mage [HoF]",
@@ -1303,7 +1303,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "72-samurai-[hof]",
+            "_id": "72",
             "jobQueryString": "samurai-[hof]",
             "jobType": "Warrior",
             "jobName": "Samurai [HoF]",
@@ -1338,7 +1338,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "73-glam-vamp",
+            "_id": "73",
             "jobQueryString": "glam-vamp",
             "jobType": "Meia",
             "jobName": "Glam Vamp",
@@ -1352,7 +1352,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "74-assassin-[hof]",
+            "_id": "74",
             "jobQueryString": "assassin-[hof]",
             "jobType": "Ranger",
             "jobName": "Assassin [HoF]",
@@ -1388,7 +1388,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "75-hero-of-despair",
+            "_id": "75",
             "jobQueryString": "hero-of-despair",
             "jobType": "Warrior",
             "jobName": "Hero of Despair",
@@ -1403,7 +1403,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "76-sephiroth",
+            "_id": "76",
             "jobQueryString": "sephiroth",
             "jobType": "Warrior",
             "jobName": "Sephiroth",
@@ -1430,7 +1430,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "77-flower-girl-of-midgar",
+            "_id": "77",
             "jobQueryString": "flower-girl-of-midgar",
             "jobType": "Meia",
             "jobName": "Flower Girl of Midgar",
@@ -1445,7 +1445,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "78-cait-sith",
+            "_id": "78",
             "jobQueryString": "cait-sith",
             "jobType": "Ranger",
             "jobName": "Cait Sith",
@@ -1460,7 +1460,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "79-sage",
+            "_id": "79",
             "jobQueryString": "sage",
             "jobType": "Mage",
             "jobName": "Sage",
@@ -1474,7 +1474,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "80-sword-saint-(atk)",
+            "_id": "80",
             "jobQueryString": "sword-saint-(atk)",
             "jobType": "Warrior",
             "jobName": "Sword Saint (ATK)",
@@ -1488,7 +1488,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "81-sword-saint-(def)",
+            "_id": "81",
             "jobQueryString": "sword-saint-(def)",
             "jobType": "Warrior",
             "jobName": "Sword Saint (DEF)",
@@ -1502,7 +1502,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "82-cocoon-aviator",
+            "_id": "82",
             "jobQueryString": "cocoon-aviator",
             "jobType": "Ranger",
             "jobName": "Cocoon Aviator",
@@ -1541,7 +1541,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "83-dragoon-[hof]",
+            "_id": "83",
             "jobQueryString": "dragoon-[hof]",
             "jobType": "Warrior",
             "jobName": "Dragoon [HoF]",
@@ -1580,7 +1580,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "84-psicom-officer",
+            "_id": "84",
             "jobQueryString": "psicom-officer",
             "jobType": "Meia",
             "jobName": "PSICOM Officer",
@@ -1594,7 +1594,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "85-scholar-[hof]",
+            "_id": "85",
             "jobQueryString": "scholar-[hof]",
             "jobType": "Mage",
             "jobName": "Scholar [HoF]",
@@ -1631,7 +1631,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "86-dancer-[hof]",
+            "_id": "86",
             "jobQueryString": "dancer-[hof]",
             "jobType": "Ranger",
             "jobName": "Dancer [HoF]",
@@ -1669,7 +1669,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "87-vesna-krasna",
+            "_id": "87",
             "jobQueryString": "vesna-krasna",
             "jobType": "Meia",
             "jobName": "Vesna Krasna",
@@ -1683,7 +1683,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "88-eorzea's-paladin",
+            "_id": "88",
             "jobQueryString": "eorzea's-paladin",
             "jobType": "Warrior",
             "jobName": "Eorzea's Paladin",
@@ -1729,7 +1729,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "89-y'shtola",
+            "_id": "89",
             "jobQueryString": "y'shtola",
             "jobType": "Mage",
             "jobName": "Y'shtola",
@@ -1751,7 +1751,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "90-mythic-sage-[hof]",
+            "_id": "90",
             "jobQueryString": "mythic-sage-[hof]",
             "jobType": "Mage",
             "jobName": "Mythic Sage [HoF]",
@@ -1794,7 +1794,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "91-mythic-ninja-[hof]",
+            "_id": "91",
             "jobQueryString": "mythic-ninja-[hof]",
             "jobType": "Ranger",
             "jobName": "Mythic Ninja [HoF]",
@@ -1835,7 +1835,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "92-mythic-knight-[hof]",
+            "_id": "92",
             "jobQueryString": "mythic-knight-[hof]",
             "jobType": "Warrior",
             "jobName": "Mythic Knight [HoF]",
@@ -1876,7 +1876,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "93-paladin-[hof]",
+            "_id": "93",
             "jobQueryString": "paladin-[hof]",
             "jobType": "Warrior",
             "jobName": "Paladin [HoF]",
@@ -1910,7 +1910,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "94-eorzean-bard",
+            "_id": "94",
             "jobQueryString": "eorzean-bard",
             "jobType": "Sarah",
             "jobName": "Eorzean Bard",
@@ -1953,7 +1953,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "95-viking-[hof]",
+            "_id": "95",
             "jobQueryString": "viking-[hof]",
             "jobType": "Ranger",
             "jobName": "Viking [HoF]",
@@ -1998,7 +1998,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "96-devout-[hof]",
+            "_id": "96",
             "jobQueryString": "devout-[hof]",
             "jobType": "Mage",
             "jobName": "Devout [HoF]",
@@ -2031,7 +2031,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "97-crimson-archer",
+            "_id": "97",
             "jobQueryString": "crimson-archer",
             "jobType": "Sarah",
             "jobName": "Crimson Archer",
@@ -2071,7 +2071,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "98-nachtflug",
+            "_id": "98",
             "jobQueryString": "nachtflug",
             "jobType": "Sarah",
             "jobName": "Nachtflug",
@@ -2115,7 +2115,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "99-heretical-knight-[hof]",
+            "_id": "99",
             "jobQueryString": "heretical-knight-[hof]",
             "jobType": "Warrior",
             "jobName": "Heretical Knight [HoF]",
@@ -2152,7 +2152,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "100-primeval-witch",
+            "_id": "100",
             "jobQueryString": "primeval-witch",
             "jobType": "Meia",
             "jobName": "Primeval Witch",
@@ -2211,7 +2211,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "101-judge-magister-[hof]",
+            "_id": "101",
             "jobQueryString": "judge-magister-[hof]",
             "jobType": "Ranger",
             "jobName": "Judge Magister [HoF]",
@@ -2251,7 +2251,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "102-prima-donna",
+            "_id": "102",
             "jobQueryString": "prima-donna",
             "jobType": "Sarah",
             "jobName": "Prima Donna",
@@ -2292,7 +2292,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "103-beach-queen",
+            "_id": "103",
             "jobQueryString": "beach-queen",
             "jobType": "Sarah",
             "jobName": "Beach Queen",
@@ -2334,7 +2334,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "104-deep-diver",
+            "_id": "104",
             "jobQueryString": "deep-diver",
             "jobType": "Monk",
             "jobName": "Deep Diver",
@@ -2379,7 +2379,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "105-mellow-mermaid",
+            "_id": "105",
             "jobQueryString": "mellow-mermaid",
             "jobType": "Meia",
             "jobName": "Mellow Mermaid",
@@ -2425,7 +2425,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "106-tidus",
+            "_id": "106",
             "jobQueryString": "tidus",
             "jobType": "Ranger",
             "jobName": "Tidus",
@@ -2448,7 +2448,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "107-legendary-guardian",
+            "_id": "107",
             "jobQueryString": "legendary-guardian",
             "jobType": "Warrior",
             "jobName": "Legendary Guardian",
@@ -2496,7 +2496,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "108-ascetic-(atk)",
+            "_id": "108",
             "jobQueryString": "ascetic-(atk)",
             "jobType": "Monk",
             "jobName": "Ascetic (ATK)",
@@ -2542,7 +2542,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "109-ascetic-(def)",
+            "_id": "109",
             "jobQueryString": "ascetic-(def)",
             "jobType": "Monk",
             "jobName": "Ascetic (DEF)",
@@ -2588,7 +2588,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "110-proud-cygnus",
+            "_id": "110",
             "jobQueryString": "proud-cygnus",
             "jobType": "Sarah",
             "jobName": "Proud Cygnus",
@@ -2630,7 +2630,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "111-al-bhed-huntress",
+            "_id": "111",
             "jobQueryString": "al-bhed-huntress",
             "jobType": "Sarah",
             "jobName": "Al-Bhed Huntress",
@@ -2673,7 +2673,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "112-vana'diel-geomancer",
+            "_id": "112",
             "jobQueryString": "vana'diel-geomancer",
             "jobType": "Meia",
             "jobName": "Vana'diel Geomancer",
@@ -2724,7 +2724,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "113-vana'diel-monk",
+            "_id": "113",
             "jobQueryString": "vana'diel-monk",
             "jobType": "Monk",
             "jobName": "Vana'diel Monk",
@@ -2770,7 +2770,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "114-shorn-one",
+            "_id": "114",
             "jobQueryString": "shorn-one",
             "jobType": "Warrior",
             "jobName": "Shorn One",
@@ -2815,7 +2815,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "115-skyseer",
+            "_id": "115",
             "jobQueryString": "skyseer",
             "jobType": "Mage",
             "jobName": "Skyseer",
@@ -2860,7 +2860,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "116-gambler",
+            "_id": "116",
             "jobQueryString": "gambler",
             "jobType": "Ranger",
             "jobName": "Gambler",
@@ -2906,7 +2906,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "117-night-walker",
+            "_id": "117",
             "jobQueryString": "night-walker",
             "jobType": "Meia",
             "jobName": "Night Walker",
@@ -2949,7 +2949,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "118-materia-hunter",
+            "_id": "118",
             "jobQueryString": "materia-hunter",
             "jobType": "Sarah",
             "jobName": "Materia Hunter",
@@ -2994,7 +2994,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "119-agent-of-scarlet-woe",
+            "_id": "119",
             "jobQueryString": "agent-of-scarlet-woe",
             "jobType": "Monk",
             "jobName": "Agent Of Scarlet Woe",
@@ -3039,7 +3039,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "120-tifa",
+            "_id": "120",
             "jobQueryString": "tifa",
             "jobType": "Ranger",
             "jobName": "Tifa",
@@ -3061,7 +3061,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "121-dawn-warrior",
+            "_id": "121",
             "jobQueryString": "dawn-warrior",
             "jobType": "Warrior",
             "jobName": "Dawn Warrior",
@@ -3082,7 +3082,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "122-wild-rider",
+            "_id": "122",
             "jobQueryString": "wild-rider",
             "jobType": "Sophie",
             "jobName": "Wild Rider",
@@ -3121,7 +3121,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "123-hermit-[hof]",
+            "_id": "123",
             "jobQueryString": "hermit-[hof]",
             "jobType": "Monk",
             "jobName": "Hermit [HoF]",
@@ -3166,7 +3166,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "124-jet-stunner",
+            "_id": "124",
             "jobQueryString": "jet-stunner",
             "jobType": "Sophie",
             "jobName": "Jet Stunner",
@@ -3211,7 +3211,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "125-magitek-jester",
+            "_id": "125",
             "jobQueryString": "magitek-jester",
             "jobType": "Mage",
             "jobName": "Magitek Jester",
@@ -3259,7 +3259,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "126-magitek-heroine",
+            "_id": "126",
             "jobQueryString": "magitek-heroine",
             "jobType": "Sarah",
             "jobName": "Magitek Heroine",
@@ -3304,7 +3304,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "127-balamb-mercenary-[hof]",
+            "_id": "127",
             "jobQueryString": "balamb-mercenary-[hof]",
             "jobType": "Warrior",
             "jobName": "Balamb Mercenary [HoF]",
@@ -3346,7 +3346,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "128-tonberry-suit-[hof]",
+            "_id": "128",
             "jobQueryString": "tonberry-suit-[hof]",
             "jobType": "Mage",
             "jobName": "Tonberry Suit [HoF]",
@@ -3386,7 +3386,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "129-thief-of-tantalus-[hof]",
+            "_id": "129",
             "jobQueryString": "thief-of-tantalus-[hof]",
             "jobType": "Ranger",
             "jobName": "Thief of Tantalus [Hof]",
@@ -3427,7 +3427,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "130-moogle-suit-[hof]",
+            "_id": "130",
             "jobQueryString": "moogle-suit-[hof]",
             "jobType": "Monk",
             "jobName": "Moogle Suit [HoF]",
@@ -3465,7 +3465,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "131-gardien",
+            "_id": "131",
             "jobQueryString": "gardien",
             "jobType": "Graff",
             "jobName": "Gardien",
@@ -3506,7 +3506,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "132-toredor",
+            "_id": "132",
             "jobQueryString": "toredor",
             "jobType": "Graff",
             "jobName": "Toredor",
@@ -3551,7 +3551,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "133-gilgamesh",
+            "_id": "133",
             "jobQueryString": "gilgamesh",
             "jobType": "Ranger",
             "jobName": "Gilgamesh",
@@ -3573,7 +3573,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "134-cacciatrice",
+            "_id": "134",
             "jobQueryString": "cacciatrice",
             "jobType": "Sarah",
             "jobName": "Cacciatrice",
@@ -3622,7 +3622,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "135-stranger-to-the-mythos",
+            "_id": "135",
             "jobQueryString": "stranger-to-the-mythos",
             "jobType": "Sophie",
             "jobName": "Stranger to the Mythos",
@@ -3669,7 +3669,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "136-paradox-wanderer",
+            "_id": "136",
             "jobQueryString": "paradox-wanderer",
             "jobType": "Sarah",
             "jobName": "Paradox Wanderer",
@@ -3718,7 +3718,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "137-scharfrichter-(atk)",
+            "_id": "137",
             "jobQueryString": "scharfrichter-(atk)",
             "jobType": "Warrior",
             "jobName": "Scharfrichter (ATK)",
@@ -3776,7 +3776,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "138-scharfrichter-(def)",
+            "_id": "138",
             "jobQueryString": "scharfrichter-(def)",
             "jobType": "Warrior",
             "jobName": "Scharfrichter (DEF)",
@@ -3834,7 +3834,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "139-esmeralda-[hof]",
+            "_id": "139",
             "jobQueryString": "esmeralda-[hof]",
             "jobType": "Meia",
             "jobName": "Esmeralda [HoF]",
@@ -3876,7 +3876,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "140-fauviste-[hof]",
+            "_id": "140",
             "jobQueryString": "fauviste-[hof]",
             "jobType": "Meia",
             "jobName": "Fauviste [HoF]",
@@ -3917,7 +3917,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "141-amalthea-[hof]",
+            "_id": "141",
             "jobQueryString": "amalthea-[hof]",
             "jobType": "Meia",
             "jobName": "Amalthea [HoF]",
@@ -3962,7 +3962,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "142-kampfer-(atk)",
+            "_id": "142",
             "jobQueryString": "kampfer-(atk)",
             "jobType": "Monk",
             "jobName": "Kampfer (ATK)",
@@ -4021,7 +4021,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "143-kampfer-(def)",
+            "_id": "143",
             "jobQueryString": "kampfer-(def)",
             "jobType": "Monk",
             "jobName": "Kampfer (DEF)",
@@ -4079,7 +4079,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "144-tropical-traveler",
+            "_id": "144",
             "jobQueryString": "tropical-traveler",
             "jobType": "Sophie",
             "jobName": "Tropical Traveler",
@@ -4087,42 +4087,42 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/6.png"
         },
         {
-            "_id": "145-sword-saint-(atk)-[hof]",
+            "_id": "145",
             "jobQueryString": "sword-saint-(atk)-[hof]",
             "jobType": "Warrior",
             "jobName": "Sword Saint (ATK) [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "146-sword-saint-(def)-[hof]",
+            "_id": "146",
             "jobQueryString": "sword-saint-(def)-[hof]",
             "jobType": "Warrior",
             "jobName": "Sword Saint (DEF) [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "147-sage-[hof]",
+            "_id": "147",
             "jobQueryString": "sage-[hof]",
             "jobType": "Mage",
             "jobName": "Sage [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "148-vagabond",
+            "_id": "148",
             "jobQueryString": "vagabond",
             "jobType": "Graff",
             "jobName": "Vagabond",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "149-ninja-[hof]",
+            "_id": "149",
             "jobQueryString": "ninja-[hof]",
             "jobType": "Ranger",
             "jobName": "Ninja [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "150-sorceress's-knight",
+            "_id": "150",
             "jobQueryString": "sorceress's-knight",
             "jobType": "Graff",
             "jobName": "Sorceress's Knight",
@@ -4130,7 +4130,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "151-squall-leonhart",
+            "_id": "151",
             "jobQueryString": "squall-leonhart",
             "jobType": "Warrior",
             "jobName": "Squall Leonhart",
@@ -4138,7 +4138,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "152-squall",
+            "_id": "152",
             "jobQueryString": "squall",
             "jobType": "Warrior",
             "jobName": "Squall",
@@ -4146,7 +4146,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/1.png"
         },
         {
-            "_id": "153-sorceress-of-oblivion",
+            "_id": "153",
             "jobQueryString": "sorceress-of-oblivion",
             "jobType": "Meia",
             "jobName": "Sorceress of Oblivion",
@@ -4154,7 +4154,7 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "154-reisender",
+            "_id": "154",
             "jobQueryString": "reisender",
             "jobType": "Ranger",
             "jobName": "Reisender",
@@ -4162,21 +4162,21 @@
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/3.png"
         },
         {
-            "_id": "155-glam-vamp-[hof]",
+            "_id": "155",
             "jobQueryString": "glam-vamp-[hof]",
             "jobType": "Meia",
             "jobName": "Glam Vamp [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "156-vesna-krasna-[hof]",
+            "_id": "156",
             "jobQueryString": "vesna-krasna-[hof]",
             "jobType": "Meia",
             "jobName": "Vesna Krasna [HoF]",
             "jobUrlIcon": "https://img.altema.jp/ffmobius/jobtype/2.png"
         },
         {
-            "_id": "157-wahrsager",
+            "_id": "157",
             "jobQueryString": "wahrsager",
             "jobType": "Mage",
             "jobName": "Wahrsager",
