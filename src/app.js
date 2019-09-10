@@ -39,11 +39,11 @@ app.get('/beta/jobs', (req, res) => {
 
       return res.status(200).json(job);
     });
+  } else {
+    JobModel.find().then(job => {
+      res.status(200).json(job);
+    }).catch(err => res.status(400).json('Error: ' + err));
   }
-
-  JobModel.find().then(job => {
-    res.status(200).json(job);
-  }).catch(err => res.status(400).json('Error: ' + err));
 });
 
 /**
@@ -53,27 +53,23 @@ app.get('/beta/jobs', (req, res) => {
  */
 app.get('/beta/jobs/type', (req, res) => {
   const { query: { type } } = req; // type specific query
-  let jobsOfType = {};
 
   if (!type) {
-    let err = new Error("input valid query string");
+    let err = new Error("Query string required");
     const { message } = err;
     return res.status(err.status || 500).json({ message });
   }
 
-  for(job in jobs[0]) { 
-    if(jobs[0][job].jobType === type) {
-      jobsOfType[job] = jobs[0][job];
-    }  
-
-    if (type === "Skin" && jobs[0][job].hasOwnProperty('jobIsSkin') 
-        || type === "Legend" && jobs[0][job].hasOwnProperty('jobIsLegend')
-        || type === "Ex" && jobs[0][job].hasOwnProperty('jobIsEx')) {
-          jobsOfType[job] = jobs[0][job];
-    }
+  if (type === "Skin" || type === "Legend" || type === "Ex") {
+    let property = "jobIs" + `${type}`;
+    JobModel.find().exists(property, true).then(jobs => {
+      res.status(200).json(jobs);
+    }).catch(err => res.status(400).json('Error: ' + err));
+  } else {
+    JobModel.find().where({ jobType: type }).then(jobs => {
+      res.status(200).json(jobs);
+    }).catch(err => res.status(400).json('Error: ' + err));
   }
-
-  return res.status(200).json(jobsOfType || {});
 });
 
 /**

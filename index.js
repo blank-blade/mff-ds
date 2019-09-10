@@ -35,7 +35,6 @@ connection.once('open', () => {
         } else {
           console.log("mongodb: Successfully added collection");
         }
-        mongoose.connection.close();
       });
     });
 });
