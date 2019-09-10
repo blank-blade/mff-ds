@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
+const mongoose = require('mongoose');
 
 const jobs = require('./jobs');
 const Job = require('./models/jobs.model');
@@ -14,44 +15,6 @@ app.get('/', (_, res) => {
   return res
     .status(200)
     .send('<img src="https://cdn.discordapp.com/emojis/404433244113862667.png?v=1" />');
-});
-
-
-app.post('/beta/jobs/add', (req, res) => {
-    const jobId = jobs[0]["onion-knight"].jobId;
-    const jobQueryString = jobs[0]["onion-knight"].jobQueryString;
-    const jobType = jobs[0]["onion-knight"].jobType;
-    const jobName = jobs[0]["onion-knight"].jobName;
-    const jobStat = {
-        Hp: jobs[0]["onion-knight"].jobStatHp,
-        Attack: jobs[0]["onion-knight"].jobStatAttack,
-        Break: jobs[0]["onion-knight"].jobStatBreak,
-        Magic: jobs[0]["onion-knight"].jobStatMagic,
-        CritChance: jobs[0]["onion-knight"].jobStatCritChance,
-        Speed: jobs[0]["onion-knight"].jobStatSpeed,
-        Defense: jobs[0]["onion-knight"].jobStatDefense,
-    };
-    const jobOrbs = {
-        Set1: [jobs[0]["onion-knight"].jobOrbSet1]
-    };
-    const jobMpRole = jobs[0]["onion-knight"].jobMpRole;
-    const jobUrlIcon = jobs[0]["onion-knight"].jobUrlIcon;
-
-    const newJob = new Job({
-      jobId,
-      jobQueryString,
-      jobType,
-      jobName,
-      jobStat,
-      jobOrbs,
-      jobMpRole,
-      jobUrlIcon
-    });
-
-    // save to db
-    newJob.save()
-      .then(() => res.json('Job added!'))
-      .catch(err => res.status(400).json('Error: ' + err));
 });
 
 /**

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "dbfetch": "gsjson 1V-eQTG1UNTDnG-lrGwd_Iby5rwLZlpZ0nxpuhobp_r4 src/jobs.json -ab --hash jobQueryString"
+    "dbfetch": "gsjson 1V-eQTG1UNTDnG-lrGwd_Iby5rwLZlpZ0nxpuhobp_r4 src/jobs.json -ab"
   },
   "dependencies": {
     "cors": "^2.8.5",
