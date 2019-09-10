@@ -32,7 +32,7 @@ app.get('/beta/jobs', (req, res) => {
 /**
  * Jobs endpoint
  * Query for specific job names given a type
- * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie]
+ * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie, Skin, Legend, Ex]
  */
 app.get('/beta/jobs/type', (req, res) => {
   const { query: { type } } = req; // type specific query
@@ -45,12 +45,14 @@ app.get('/beta/jobs/type', (req, res) => {
   }
 
   for(job in jobs[0]) { 
-    if(type !== "Skin" && jobs[0][job].jobType === type) {
+    if(jobs[0][job].jobType === type) {
       jobsOfType[job] = jobs[0][job];
     }  
-    // queries for "Skin"
-    if (type === "Skin" && jobs[0][job].hasOwnProperty('jobIsSkin')) {
-      jobsOfType[job] = jobs[0][job];
+
+    if (type === "Skin" && jobs[0][job].hasOwnProperty('jobIsSkin') 
+        || type === "Legend" && jobs[0][job].hasOwnProperty('jobIsLegend')
+        || type === "Ex" && jobs[0][job].hasOwnProperty('jobIsEx')) {
+          jobsOfType[job] = jobs[0][job];
     }
   }
 
