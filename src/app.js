@@ -19,7 +19,7 @@ app.get('/', (_, res) => {
  * Jobs endpoint
  * Query for specific job names
  */
-app.get('/jobs', (req, res) => {
+app.get('/beta/jobs', (req, res) => {
   const { query: { name } } = req; // name specific query
 
   if (name) {
@@ -34,7 +34,7 @@ app.get('/jobs', (req, res) => {
  * Query for specific job names given a type
  * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie]
  */
-app.get('/jobs/type', (req, res) => {
+app.get('/beta/jobs/type', (req, res) => {
   const { query: { type } } = req; // type specific query
   let jobsOfType = {};
 
@@ -61,7 +61,7 @@ app.get('/jobs/type', (req, res) => {
  * Jobs endpoint
  * Returns list of job keys
  */
-app.get('/jobs/keys', (_, res) => {
+app.get('/beta/jobs/keys', (_, res) => {
   return res.status(200).json(Object.keys(jobs[0]));
 });
 
