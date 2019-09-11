@@ -1,0 +1,20 @@
+service: mff-ds
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  memorySize: 256
+  timeout: 30
+
+functions:
+  app:
+    handler: serverless.handler
+    events:
+      - http:
+          path: /
+          method: ANY
+          cors: true
+      - http:
+          path: '{proxy+}'
+          method: ANY
+          cors: true

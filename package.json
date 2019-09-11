@@ -7,13 +7,15 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "dbupdate": "gsjson 1V-eQTG1UNTDnG-lrGwd_Iby5rwLZlpZ0nxpuhobp_r4 src/jobs.json -ab --hash jobId"
+    "dbupdate": "gsjson 1V-eQTG1UNTDnG-lrGwd_Iby5rwLZlpZ0nxpuhobp_r4 src/jobs.json -ab --hash jobId",
+    "local-deploy": "sls deploy --aws-profile blank-blade"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-rate-limit": "^3.4.0",
-    "google-spreadsheet-to-json": "^1.0.0"
+    "google-spreadsheet-to-json": "^1.0.0",
+    "serverless-http": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
