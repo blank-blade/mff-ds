@@ -1,9 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-const mongoose = require('mongoose');
 
-const jobs = require('./jobs');
 const JobModel = require('./models/jobs.model');
 
 const app = express();
@@ -21,7 +19,7 @@ app.get('/', (_, res) => {
  * Jobs endpoint
  * Query for specific job names
  */
-app.get('/beta/jobs', (req, res) => {
+app.get('/beta/jobs', (req, res, next) => {
   const { query: { name } } = req; // name specific query
 
   if (name) {
@@ -42,7 +40,7 @@ app.get('/beta/jobs', (req, res) => {
   } else {
     JobModel.find().then(job => {
       res.status(200).json(job);
-    }).catch(err => res.status(400).json('Error: ' + err));
+    }).catch(next);
   }
 });
 
@@ -51,7 +49,7 @@ app.get('/beta/jobs', (req, res) => {
  * Query for specific job names given a type
  * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie, Skin, Legend, Ex]
  */
-app.get('/beta/jobs/type', (req, res) => {
+app.get('/beta/jobs/type', (req, res, next) => {
   const { query: { type } } = req; // type specific query
 
   if (!type) {
@@ -64,11 +62,11 @@ app.get('/beta/jobs/type', (req, res) => {
     let property = "jobIs" + `${type}`;
     JobModel.find().exists(property, true).then(jobs => {
       res.status(200).json(jobs);
-    }).catch(err => res.status(400).json('Error: ' + err));
+    }).catch(next);
   } else {
     JobModel.find().where({ jobType: type }).then(jobs => {
       res.status(200).json(jobs);
-    }).catch(err => res.status(400).json('Error: ' + err));
+    }).catch(next);
   }
 });
 
@@ -76,12 +74,12 @@ app.get('/beta/jobs/type', (req, res) => {
  * Jobs endpoint
  * Returns list of queryable jobs 
  */
-app.get('/beta/jobs/keys', (_, res) => {
+app.get('/beta/jobs/keys', (_, res, next) => {
   JobModel.find().distinct('jobQueryString')
     .then(jobs => {
       res.status(200).json(jobs);
     })
-    .catch(err => res.status(400).json('Error: ' + err));
+    .catch(next);
 });
 
 // catch-all error handler
