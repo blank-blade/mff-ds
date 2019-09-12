@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   # TODO: figure out a way to reuse steps
-  test:
+  build:
     docker:
       - image: circleci/node:10
 
