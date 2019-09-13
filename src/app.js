@@ -29,7 +29,7 @@ app.get('/beta/jobs', (req, res, next) => {
       if (err) {
         const { message } = err;
         return res.status(err.status || 500).json({ message });
-      };
+      }
   
       if (!job) {
         return res.status(400).json('Job not found');
