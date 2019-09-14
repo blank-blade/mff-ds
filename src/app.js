@@ -19,13 +19,13 @@ app.get('/', (_, res) => {
  * Jobs endpoint
  * Query for specific job names
  */
-app.get('/beta/jobs', (req, res, next) => {
+app.get('/beta/jobs', async (req, res, next) => {
   const { query: { name } } = req; // name specific query
 
   if (name) {
-    let query = JobModel.where({ jobQueryString: name });
+    let query = await JobModel.where({ jobQueryString: name });
 
-    query.findOne((err, job) => {
+    await query.findOne((err, job) => {
       if (err) {
         const { message } = err;
         return res.status(err.status || 500).json({ message });
@@ -38,7 +38,7 @@ app.get('/beta/jobs', (req, res, next) => {
       return res.status(200).json(job);
     });
   } else {
-    JobModel.find().then(job => {
+    await JobModel.find().then(job => {
       res.status(200).json(job);
     }).catch(next);
   }
@@ -49,7 +49,7 @@ app.get('/beta/jobs', (req, res, next) => {
  * Query for specific job names given a type
  * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie, Skin, Legend, Ex]
  */
-app.get('/beta/jobs/type', (req, res, next) => {
+app.get('/beta/jobs/type', async (req, res, next) => {
   const { query: { type } } = req; // type specific query
 
   if (!type) {
@@ -60,11 +60,11 @@ app.get('/beta/jobs/type', (req, res, next) => {
 
   if (type === "Skin" || type === "Legend" || type === "Ex") {
     let property = "jobIs" + `${type}`;
-    JobModel.find().exists(property, true).then(jobs => {
+    await JobModel.find().exists(property, true).then(jobs => {
       res.status(200).json(jobs);
     }).catch(next);
   } else {
-    JobModel.find().where({ jobType: type }).then(jobs => {
+    await JobModel.find().where({ jobType: type }).then(jobs => {
       res.status(200).json(jobs);
     }).catch(next);
   }
@@ -74,8 +74,8 @@ app.get('/beta/jobs/type', (req, res, next) => {
  * Jobs endpoint
  * Returns list of queryable jobs 
  */
-app.get('/beta/jobs/keys', (_, res, next) => {
-  JobModel.find().distinct('jobQueryString')
+app.get('/beta/jobs/keys', async (_, res, next) => {
+  await JobModel.find().distinct('jobQueryString')
     .then(jobs => {
       res.status(200).json(jobs);
     })
