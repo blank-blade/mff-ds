@@ -29,10 +29,6 @@ jobs:
           command: yarn eslint src/
 
   deploy:
-    branches:
-      only:
-        - master
-
     docker:
       - image: circleci/node:10
 
@@ -72,3 +68,7 @@ workflows:
       - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only:
+                - master
