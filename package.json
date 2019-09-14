@@ -16,7 +16,7 @@
     "express": "^4.16.4",
     "express-rate-limit": "^3.4.0",
     "google-spreadsheet-to-json": "^1.0.0",
-    "moongoose": "^0.0.5",
+    "mongoose": "^5.7.1",
     "serverless-http": "^2.3.0"
   },
   "devDependencies": {
