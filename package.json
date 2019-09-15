@@ -5,8 +5,7 @@
   "author": "woozyking <runzhou.li@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "dev": "env $(print-env) nodemon index.js",
     "dbfetch": "gsjson 1V-eQTG1UNTDnG-lrGwd_Iby5rwLZlpZ0nxpuhobp_r4 src/jobs.json -ab",
     "local-deploy": "sls deploy --aws-profile blank-blade"
   },
@@ -16,7 +15,7 @@
     "express": "^4.16.4",
     "express-rate-limit": "^3.4.0",
     "google-spreadsheet-to-json": "^1.0.0",
-    "mongoose": "^5.7.1",
+    "mongodb": "^3.3.2",
     "serverless-http": "^2.3.0"
   },
   "devDependencies": {
