@@ -9,6 +9,8 @@ provider:
 functions:
   app:
     handler: serverless.handler
+    environment:
+      ATLAS_URI: ${env:ATLAS_URI}
     events:
       - http:
           path: /
