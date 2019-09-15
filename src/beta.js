@@ -18,7 +18,7 @@ router.get('/jobs', async (req, res, next) => {
   try {
     client = await MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     const db = client.db('mff-db')
-    const coll = db.collection('job')
+    const coll = db.collection('jobs')
 
     if (name) {
       const job = await coll.findOne({ jobQueryString: name })
@@ -51,7 +51,7 @@ router.get('/jobs/type', hasQueryParams('type'), async (req, res, next) => {
   try {
     client = await MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     const db = client.db('mff-db')
-    const coll = db.collection('job')
+    const coll = db.collection('jobs')
 
     if (['Skin', 'Legend', 'Ex'].includes(type)) {
       const jobs = await coll.find({ [`jobIs${type}`]: true }).toArray()
@@ -77,7 +77,7 @@ router.get('/jobs/keys', async (_, res, next) => {
   try {
     client = await MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     const db = client.db('mff-db')
-    const coll = db.collection('job')
+    const coll = db.collection('jobs')
 
     const keys = await coll.distinct('jobQueryString')
     return res.status(200).json(keys)
