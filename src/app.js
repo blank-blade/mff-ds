@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 
-const beta = require('./beta')
+const jobs = require('./jobs')
 
 const app = express();
 app.enable('trust proxy');
@@ -15,7 +15,7 @@ app.get('/', (_, res) => {
     .send('<img src="https://cdn.discordapp.com/emojis/404433244113862667.png?v=1" />');
 });
 
-app.use('/beta', beta)
+app.use('/jobs', jobs)
 
 // catch-all error handler
 // eslint disable otherwise not able to catch errors

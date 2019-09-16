@@ -11,7 +11,7 @@ const router = Router()
  * Jobs endpoint
  * Query for specific job names
  */
-router.get('/jobs', async (req, res, next) => {
+router.get('/', async (req, res, next) => {
   const { query: { name } } = req; // name specific query
   let client;
 
@@ -44,7 +44,7 @@ router.get('/jobs', async (req, res, next) => {
  * Query for specific job names given a type
  * Valid types: [Warrior, Mage, Ranger, Monk, Sarah, Meia, Graff, Sophie, Skin, Legend, Ex]
  */
-router.get('/jobs/type', hasQueryParams('type'), async (req, res, next) => {
+router.get('/type', hasQueryParams('type'), async (req, res, next) => {
   const { query: { type } } = req; // type specific query
   let client;
 
@@ -54,7 +54,7 @@ router.get('/jobs/type', hasQueryParams('type'), async (req, res, next) => {
     const coll = db.collection('jobs')
 
     if (['Skin', 'Legend', 'Ex'].includes(type)) {
-      const jobs = await coll.find({ [`jobIs${type}`]: true }).toArray()
+      const jobs = await coll.find({ [`jobIs${type}`]: { '$exists': true } }).toArray()
       return res.status(200).json(jobs)
     }
 
@@ -71,7 +71,7 @@ router.get('/jobs/type', hasQueryParams('type'), async (req, res, next) => {
  * Jobs endpoint
  * Returns list of queryable jobs
  */
-router.get('/jobs/keys', async (_, res, next) => {
+router.get('/keys', async (_, res, next) => {
   let client;
 
   try {
